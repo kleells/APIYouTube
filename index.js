@@ -15,10 +15,12 @@ searchButton.addEventListener('click', (e) => {
         .then(response => response.json())
         .then((results) => {
 
-            // show items of search result
+            // show items of search result as link
             results.items.forEach(item => {
-                console.log(item);
+                if (item.id.videoId != undefined) {
+                    const link = `https://www.youtube.com/watch?v=${item.id.videoId}`;
+                    console.log(link);
+                }
             })
-            
         })
 });
