@@ -10,5 +10,15 @@ searchButton.addEventListener('click', (e) => {
     const searchQuery = '?part=snippet&q=' + searchTerm + apiPrefix + apiKey;
     const url = googleAPIUrl + searchQuery;
 
-    fetch(url);
+    // fetch search results
+    fetch(url)
+        .then(response => response.json())
+        .then((results) => {
+
+            // show items of search result
+            results.items.forEach(item => {
+                console.log(item);
+            })
+            
+        })
 });
