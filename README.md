@@ -22,6 +22,8 @@ Add user functionality with JavaScript to an HTML. Accesed Google Cloud API libr
 ## History
 After completing a Software Engineering certification program and during my job search, I needed to continue to pracitce my skill set in order to maintain it and learn more. I thought that even the most basic projects using the most basic languages was a great place to start.
 
+## Desktop
 ![Desktop stipet of HTML file](assests/images/APIYouTube1.png)
 
+## Mobile
 ![Mobile stipet of HTML file](assests/images/APIYouTube2.png)
