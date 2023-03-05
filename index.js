@@ -21,6 +21,7 @@ searchButton.addEventListener('click', (e) => {
                 if (item.id.videoId != undefined) {
                     const link = `https://www.youtube.com/watch?v=${item.id.videoId}`;
                     console.log(link);
+                    // change above to console.log(item) to see available child items of the search results 
                     
                     // found results will get updated in HTML div
                     // creates a break in HTML doc
