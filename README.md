@@ -5,6 +5,8 @@ A coding tutorial created to review and practice basic JavaScript by creating a 
 ## Tech Used
 - HTML
 - CSS
+- JavaScript
+- Google CLoud APIs
 
 ## Dependencies
 None. Viewer only needs to utilize Live Server through the index.html file.
